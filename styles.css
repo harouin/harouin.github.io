@@ -1,0 +1,242 @@
+html {
+    scroll-behavior: smooth;
+   }
+
+body {
+    background-color: brown;
+    margin: 0px;
+    padding: 0px;
+}
+
+.container {
+    position: relative;
+    text-align: center;
+    color: beige;
+}
+
+.container img{
+    width: 100%;
+    height: 200px;
+    object-fit:cover;
+    object-position: bottom;
+}
+
+.centered {
+    position: absolute;
+    top: -10px;
+    left: 50%;
+    transform: translate(-50%, 50%);
+    font-family: 'Source Code Pro', monospace;
+    font-size: 45px;
+    text-shadow: 2px 2px 5px black
+}
+
+.nav ul{
+    background-color: rgb(53, 18, 18);
+    list-style-type: none;
+    padding: 0px;
+    margin: 0px;
+    text-align: center;
+    position: relative;
+}
+
+.nav li{
+    display: inline-block;
+    font-family: 'Hammersmith One', sans-serif;
+    font-size: 15px;
+}
+
+.nav a{
+    text-decoration: none;
+    color: rgb(233, 233, 233);
+    padding: 15px;
+    text-align: center;
+    display: block;
+}
+
+.nav a:hover{
+    background-color: rgb(83, 22, 22);
+}
+
+.p1 {
+    background-color: beige;
+    margin-left: 10%;
+    margin-right: 10%;
+    padding: 5px 20px 10px 20px;
+    box-shadow: 0px 0px 20px 5px rgb(114, 17, 17);
+}
+
+.floatleft img{
+    width: 40%;
+    margin-right: 20px;
+    float: left;
+}
+
+.floatright img{
+    width: 30%;
+    margin-left: 20px;
+    margin-bottom: 5px;
+    float: right;
+}
+
+.p1 p{
+    font-family: 'Hind Madurai', sans-serif;
+    margin-top: 10px;
+    text-align: justify;
+}
+
+.p1 h3 {
+    font-family: 'Hind Madurai', sans-serif;
+}
+
+.p1 h4 {
+    font-family: 'Hind Madurai', sans-serif;
+    margin: 0px;
+}
+
+table, th, td{
+    font-family: 'Hind Madurai', sans-serif;
+    width: 50%;
+    height: auto;
+}
+
+table{
+    border-collapse: collapse;
+    table-layout: fixed;
+}
+
+th{
+    text-align: center;
+    width: 20px;
+    font-size: 15px;
+    padding: 5px;
+    background-color: rgb(116, 39, 39);
+    border-radius: 1px;
+    color: beige;
+}
+
+tr:nth-child(even){background-color: #e2e2e2}
+
+td{
+    font-size: 15px;
+    padding: 10px;
+}
+#steeltable{
+    float: left;
+    width: 60%;
+    margin-right: 15px;
+}
+
+#metaltable1{
+    width: 100%;
+}
+
+.p1 img{
+    width: 40%;
+}
+
+ol{
+    list-style-position: inside;
+}
+
+li{
+    font-family: 'Hind Madurai', sans-serif;
+
+}
+
+hr{
+    margin: 30px;
+    border-style: solid;
+    color: #a7aa90;
+}
+
+.mines img{
+    height: 200px;
+    width: auto;
+}
+
+.pe{
+    background-color: beige;
+    margin-left: 10%;
+    margin-right: 10%;
+    padding: 5px 20px 10px 20px;
+    box-shadow: 0px 0px 20px 5px rgb(114, 17, 17);
+}
+
+.pe p{
+    font-family: 'Hind Madurai', sans-serif;
+    font-size: 17px;
+    margin-top: 10px;
+    text-align: justify;
+}
+
+#po {
+    margin-left: 20px;
+    margin-bottom: 20px;
+    width: 50%;
+    float:right
+}
+
+#mt {
+    margin-right: 20px;
+    width: 50%;
+    float: left;
+}
+
+#de{
+    width: 60%;
+    float: left;
+}
+
+.pe img{
+    width: 70%;
+    margin: 15px;
+}
+
+.pe h3{
+    font-family: 'Hind Madurai', sans-serif;
+    font-size: 25px;
+}
+
+.pe h4{
+    font-family: 'Hind Madurai', sans-serif;
+}
+
+#treat {
+    width: 80%;
+    display: block;
+    margin: auto;
+}
+
+#chart{
+    width: 100%;
+}
+
+.source{
+    font-family: 'Hind Madurai', sans-serif;
+    background-color: beige;
+    margin-left: 10%;
+    margin-right: 10%;
+    padding: 5px 50px 10px 50px;
+    box-shadow: 0px 0px 20px 5px rgb(114, 17, 17);
+}
+
+#yipee{
+    text-align: center;
+    margin: 20px;
+}
+
+#imgcite{
+    text-align:left;
+}
+
+#sector{
+    float: right;
+    margin: 20px;
+}
+
+#manage{
+    width: 600px;
+    float: right;
+    margin: 20px;
+}
